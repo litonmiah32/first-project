@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width:100%;
+    height: 50px;
+    position: relative;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Logo{
+    margin-left:77px ;
+    padding: 14px;
+
+}
+header .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 150px;
+}
+header .nav ul {
+    list-style: none;
+}
+
+header .nav ul li {
+    float: left;
+    padding-right: 40px;
+    font-weight: bold;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 35, 35);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header .nav ul li a:hover {
+    color: rgb(49, 179, 135);
+}
+.Aboutme {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f9f9ff ;
+}
+.header2 {
+    padding-left: 107px;
+    max-width: 100%;
+    height: auto;
+}
+.header2 h4{
+   text-decoration: none;
+}
+.header2 .picture {
+    width: 50%;
+}
+.picture {
+    margin-right: 113px;
+}
+.picture img{
+    width: 100%;
+    height: auto;
+}
+.header2 h4{
+    font-weight: normal;
+    margin: 0%;
+}
+.header2 h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+.header2 p {
+    margin: 0;
+}
+.header2 input{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding:6px 30px 6px;
+    background:#68b5fd ;
+    font-size: 18px;
+    color: #f9f9ff;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+    
+}
+.detail {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mypic .about {
+    width: 50%;
+}
+.mypic {
+    padding-left: 75px;
+}
+.about{
+    padding-right: 20px;
+    margin-top:-110px ;
+}
+.about h1{
+    text-transform: uppercase;
+}
+.mypic img{
+    margin-top: -110px;
+    background: none;
+    border: none;
+}
+.about input{
+    background:#66b7fc ;
+    padding: 14px 52px 14px;
+    box-sizing: border-box; 
+    color: white;  
+    font-weight: normal;
+}
+.myoffer {
+   width: 100%;
+   height: 214px;
+   margin:0 auto;
+   text-align: center;
+}
+.myinfo h1{
+    font-size: 30px;
+    margin-top: -81px;
+}
+.myinfo p{
+    width: 800px;
+    margin: 0 auto;
+    color: rgb(194, 188, 188)
+   
+}
+.servicearea {
+    width:100%;
+    height:400px;
+    position: relative;
+
+}
+
+ .icon {
+   width:400px;
+   height:200px;
+   text-align: center;
+   float: left;
+   padding-left: 20px;
+}
+.icon img{
+    width: 30px;
+}
+.icon p {
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 104px;
+    color:#7d7d7d ;
+}
+.webdesingh {
+    width: 100%;
+    height: auto;
+    padding-left: 38px;
+}
+.webdesingh2 {
+    width: 100%;
+    height: auto;
+    padding-left: 38px;
+}
+.webdesingh2 .icon {
+    position: relative;
+    float: left;
+}
+.icon1 img{
+    width: 30px;
+}
+.icon1 {
+	width: 400px;
+	height: auto;
+	float: left;
+	text-align: center;
+	padding-right: 4px;
+	padding-left: 35px;
+}
+
+.icon1 p{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 101px;
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    color:#7d7d7d ;
+    
+}
+.icon2 {
+    width: 400px;
+	height: auto;
+	float: left;
+    padding-top: 20px;
+    text-align: center;
+}
+.icon2 img{
+    width: 30px;
+    height: auto;
+}
+.icon2 p{
+    width: 200px;
+    font-size: 15px;
+    padding-left: 105px;
+    color:#7d7d7d ;
+
+}
+
+
